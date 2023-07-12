@@ -41,6 +41,14 @@ body {
     font-family: var(--font-family);
 }
 
+.main-grid {
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns: 1.5fr 6fr;
+    grid-template-rows: 1.5fr 6fr;
+}
+
 .sidebar {
     display: grid;
     grid-template-rows: 0.3fr 1fr 3fr;
