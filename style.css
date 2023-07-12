@@ -70,6 +70,19 @@ ul:last-of-type {
     grid-template-rows: repeat(3, min-content);
 }
 
+li {
+    display: flex;
+    align-items: center;
+    gap: 1.3em;
+
+    font-weight: 700;
+    font-size: 1.1rem;
+
+    letter-spacing: 0.04em;
+
+    list-style: none;
+}
+
 .sidebar img {
     height: 1em;
     width: 1em;
