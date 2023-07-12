@@ -123,6 +123,13 @@ body {
     font-size: 1.5rem;
 }
 
+.user-name-region .user-name::before {
+    content: 'Hi there,';
+
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
 .sidebar {
     display: grid;
     grid-template-rows: 0.3fr 1fr 3fr;
