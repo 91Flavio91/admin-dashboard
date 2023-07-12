@@ -100,6 +100,12 @@ body {
     filter: none;
 }
 
+.user-name-region {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
 .sidebar {
     display: grid;
     grid-template-rows: 0.3fr 1fr 3fr;
