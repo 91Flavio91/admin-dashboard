@@ -130,6 +130,14 @@ body {
     font-size: 0.8rem;
 }
 
+.buttons-region {
+    justify-self: end;
+
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
 .sidebar {
     display: grid;
     grid-template-rows: 0.3fr 1fr 3fr;
