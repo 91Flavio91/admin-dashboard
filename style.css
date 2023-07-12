@@ -53,6 +53,23 @@ body {
     background-color: var(--bgc-sidebar);
 }
 
+ul {
+    display: grid;
+    align-self: start;
+    gap: 1.3em;
+
+    padding-left: 1em;
+}
+
+ul:first-of-type {
+    grid-template-rows: repeat(6, min-content);
+    margin-top: -1.2em;
+}
+
+ul:last-of-type {
+    grid-template-rows: repeat(3, min-content);
+}
+
 .sidebar img {
     height: 1em;
     width: 1em;
