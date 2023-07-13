@@ -342,6 +342,10 @@ li img {
     font-size: 1.5em;
 }
 
+.trending .card {
+    padding: 1.5em;
+}
+
 .users {
     display: flex;
     align-items: center;
