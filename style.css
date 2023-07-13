@@ -242,11 +242,16 @@ li img {
 }
 
 .cards-first-region,
-.cards-section-first-region {
+.cards-section-first-region,
+.cards-second-region,
+.announcements,
+.trending {
     display: grid;
 }
 
-.cards-first-region {
+.cards-first-region,
+.announcements,
+.trending {
     grid-template-rows: min-content 1fr;
     gap: 0.6em;
 }
@@ -254,6 +259,11 @@ li img {
 .cards-section-first-region {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5em;
+}
+
+.cards-second-region {
+    grid-template-rows: 1fr 1fr;
+    gap: 2.5em;
 }
 
 .cards-first-region .card::before {
