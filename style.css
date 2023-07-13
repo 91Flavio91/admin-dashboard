@@ -241,6 +241,21 @@ li img {
         inset -1px 0px 70px 0px var(--box-shadow-light-color);
 }
 
+.cards-first-region,
+.cards-section-first-region {
+    display: grid;
+}
+
+.cards-first-region {
+    grid-template-rows: min-content 1fr;
+    gap: 0.6em;
+}
+
+.cards-section-first-region {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5em;
+}
+
 .cards-first-region .card::before {
     content: '';
     width: 2%;
