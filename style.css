@@ -326,6 +326,15 @@ li img {
     padding-top: 2em;
 }
 
+.announcements .separator::before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 0.5px;
+
+    background-color: var(--font-color-medium);
+}
+
 .icons img {
     width: 1em;
 
