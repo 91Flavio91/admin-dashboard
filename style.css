@@ -308,6 +308,24 @@ li img {
     color: var(--font-color-medium);
 }
 
+.announcements .text {
+    font-size: 0.8rem;
+}
+
+.announcements .text:first-child,
+.announcements .text:nth-child(3) {
+    padding-bottom: 2em;
+}
+
+.announcements .text:nth-child(3) {
+    padding-top: 2em;
+}
+
+.announcements .text:nth-child(5) {
+    border-bottom: 1px solid #ffffff;
+    padding-top: 2em;
+}
+
 .icons img {
     width: 1em;
 
