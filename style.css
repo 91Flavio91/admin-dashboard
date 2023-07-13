@@ -59,6 +59,8 @@ body {
     grid-template-rows: 1.5fr 6fr;
 }
 
+
+/* --------------- Rules regarding the HEADER ------------------- */
 .header {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -75,6 +77,8 @@ body {
     filter: invert(0%) sepia(94%) saturate(40%) hue-rotate(320deg) brightness(110%) contrast(100%);
 }
 
+
+/* Rules regarding the search-region in HEADER, up-left cell of the header grid */
 .search-region {
     display: flex;
     align-items: center;
@@ -90,6 +94,8 @@ body {
     background-color: var(--bgc-searchbar);
 }
 
+
+/* Rules regarding the user-notification-region in HEADER, up-right cell of the header grid */
 .user-notification-region {
     justify-self: end;
 
@@ -109,6 +115,8 @@ body {
     filter: none;
 }
 
+
+/* Rules regarding the user-name-region in HEADER, bottom-left cell of the header grid */
 .user-name-region {
     display: flex;
     align-items: center;
@@ -139,6 +147,8 @@ body {
     font-size: 0.8rem;
 }
 
+
+/* Rules regarding the buttons-region in HEADER, bottom-right cell of the header grid */
 .buttons-region {
     justify-self: end;
 
@@ -162,7 +172,12 @@ body {
     color: var(--font-color-light);
     background-color: var(--bgc-button);
 }
+/* ------------------ end of the HEADER rules ------------------- */
 
+
+
+
+/* ------------------ Rules regarding the SIDEBAR --------------------- */
 .sidebar {
     display: grid;
     grid-template-rows: 0.3fr 1fr 3fr;
@@ -229,7 +244,12 @@ li {
 li img {
     font-size: 1.5rem;
 }
+/* ------------------ end of the SIDEBAR rules ------------------- */
 
+
+
+
+/* ------------------ Rules regarding the MAIN --------------------- */
 .main {
     display: grid;
     grid-template-columns: 4fr 1.5fr;
@@ -309,6 +329,8 @@ li img {
     color: var(--font-color-medium);
 }
 
+
+/* From here, the rules regarding the 'Announcements' section */
 .announcements .text {
     font-size: 0.8rem;
 }
@@ -335,13 +357,10 @@ li img {
 
     background-color: var(--font-color-medium);
 }
+/* -------------------------------------------------------- */
 
-.icons img {
-    width: 1em;
 
-    font-size: 1.5em;
-}
-
+/* From here, the rules regarding the 'Trending' section*/
 .trending .card {
     padding: 1.5em;
 }
@@ -350,12 +369,6 @@ li img {
     display: flex;
     align-items: center;
     gap: 2em;
-}
-
-.users img {
-    width: 1em;
-
-    font-size: 3em;
 }
 
 .users .text {
@@ -375,3 +388,21 @@ li img {
 
     color: var(--font-color-medium);
 }
+/* ------------------------------------------------------------ */
+
+
+
+/* These are the rules for the icons in the main section. The first one is for the icons
+in the 'Your Projects' section. The second one is for the icons in the 'Trending' section */
+.icons img {
+    width: 1em;
+
+    font-size: 1.5em;
+}
+
+.users img {
+    width: 1em;
+
+    font-size: 3em;
+}
+/* ------------------ end of the MAIN rules ------------------- */
