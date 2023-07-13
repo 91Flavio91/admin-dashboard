@@ -238,3 +238,9 @@ li img {
     box-shadow: inset 0px 3px 6px 0px var(--box-shadow-dark-color),
     inset -1px 0px 70px 0px var(--box-shadow-light-color);
 }
+
+.icons img {
+    width: 1em;
+
+    font-size: 1.5em;
+}
