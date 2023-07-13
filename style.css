@@ -35,6 +35,7 @@
     --bgc-cards-first-region-pseudoelement: #f5b745;
 
     --font-color-light: #f5f5f5;
+    --font-color-medium: #595959;
 
     --font-family: 'Roboto';
 
@@ -295,6 +296,16 @@ li img {
 
     background-color: var(--bgc-cards);
     box-shadow: 4px 4px 3px 1px var(--box-shadow-dark-color);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+
+    font-weight: 300;
+
+    color: var(--font-color-medium);
 }
 
 .icons img {
