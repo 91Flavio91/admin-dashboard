@@ -31,6 +31,7 @@
     --bgc-searchbar: #e2eaf1;
     --bgc-button: #008bc2;
     --bgc-main-section: #e2eaf1;
+    --bgc-color-cards: #ffffff;
 
     --font-color-light: #f5f5f5;
 
@@ -237,6 +238,18 @@ li img {
 
     box-shadow: inset 0px 3px 6px 0px var(--box-shadow-dark-color),
     inset -1px 0px 70px 0px var(--box-shadow-light-color);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 0.6em;
+    padding: 2em;
+
+    background-color: var(--bgc-color-cards);
+    box-shadow: 4px 4px 3px 1px var(--box-shadow-dark-color);
 }
 
 .icons img {
