@@ -305,6 +305,13 @@ li img {
     transform: rotate(360deg);
 }
 
+.icons {
+    align-self: flex-end;
+
+    display: flex;
+    gap: 2em;
+}
+
 .card {
     position: relative;
 
