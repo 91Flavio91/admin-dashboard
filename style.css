@@ -364,3 +364,10 @@ li img {
 
     color: var(--font-color-dark);
 }
+
+.users p {
+    font-weight: 300;
+    font-size: 1rem;
+
+    color: var(--font-color-medium);
+}
